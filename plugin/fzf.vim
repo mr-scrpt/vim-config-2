@@ -34,7 +34,9 @@ command! -bang -nargs=* ProjectRg
 nnoremap <C-p> :ProjectFiles<CR>
 
 " Ctrl + b for buffers search
-nnoremap <Leader>b :Buffers<CR>
+nnoremap gb :Buffers<CR>
+
 
 " Search in files
 nnoremap <Leader>/ :ProjectRg!<CR>
+

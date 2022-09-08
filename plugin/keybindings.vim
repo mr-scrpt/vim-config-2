@@ -82,3 +82,8 @@ nnoremap <Leader><Leader> <c-^>
 
 " noh - no highlight
 nnoremap <esc> :noh<return><esc>
+
+
+" scroll screen remap
+nnoremap <S-k> <c-u>
+nnoremap <S-j> <c-d>
