@@ -2,6 +2,12 @@ let mapleader = "\<Space>"
 
 call plug#begin('~/.config/nvim/plugged')
 
+" lua
+Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'L3MON4D3/LuaSnip'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'nvim-lua/plenary.nvim'
 " colorscheme
 Plug 'morhetz/gruvbox'
 
@@ -25,8 +31,13 @@ Plug 'pbrisbin/vim-syntax-shakespeare'
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " fuzzy finder
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+" Plug 'junegunn/fzf.vim'
+
+" Telescope
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+
 
 " commenting text
 Plug 'tpope/vim-commentary'
@@ -94,4 +105,5 @@ Plug 'wincent/pinnacle'
 Plug 'andys8/vim-elm-syntax'
 
 call plug#end()
+
 
