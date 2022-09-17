@@ -27,18 +27,18 @@ let g:coc_user_config = {
         \ }
         \ }
 
-" let g:coc_global_extensions = [
-"       \ 'coc-tag',
-"       \ 'coc-css',
-"       \ 'coc-html',
-"       \ 'coc-json',
-"       \ 'coc-prettier',
-"       \ 'coc-vimlsp',
-"       \ 'coc-pairs',
-"       \ 'coc-eslint',
-"       \ 'coc-tsserver',
-"       \ 'coc-angular'
-"       \ ]
+let g:coc_global_extensions = [
+       \ 'coc-tag',
+       \ 'coc-css',
+       \ 'coc-html',
+       \ 'coc-json',
+       \ 'coc-prettier',
+       \ 'coc-vimlsp',
+       \ 'coc-pairs',
+       \ 'coc-eslint',
+       \ 'coc-tsserver',
+       \ 'coc-angular'
+       \ ]
 
 " inoremap <silent><expr> <TAB>
 "      \ pumvisible() ? "\<C-n>" :

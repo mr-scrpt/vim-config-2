@@ -104,6 +104,8 @@ Plug 'wincent/pinnacle'
 " Vim elm syntax
 Plug 'andys8/vim-elm-syntax'
 
+" highlight syntax
+Plug 'nvim-treesitter/nvim-treesitter'
 call plug#end()
 
 

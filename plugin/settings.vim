@@ -15,7 +15,7 @@ set ruler
 set showcmd
 
 " Better display for messages
-" set cmdheight=2
+ set cmdheight=2
 
 " You will have bad experience for diagnostic messages when it's default 4000.
 set updatetime=300
@@ -116,6 +116,9 @@ set autowrite
 " Enable hotkeys for Russian layout
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
+" set keymap=russian-jcukenwin
+
+" let g:XkbSwitchLib = '/usr/local/lib/libg3kbswitch.so'
 " Reduce Command timeout for faster escape and O
 set timeoutlen=1000 ttimeoutlen=0
 

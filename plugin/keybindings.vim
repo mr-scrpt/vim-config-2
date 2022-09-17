@@ -5,10 +5,16 @@ nmap <Leader>s :write<Enter>
 " Escape form insern mode from jk key press
 inoremap jk <esc>
 
-
+" greatest remap ever
+" xnoremap("<leader>p", "\"_dP")
 
 " Space + r redraw vim
 nmap <Leader>r :redraw!<Enter>
+
+
+
+" back to explorerTree
+nnoremap <leader>q :Ex<CR>
 
 " Copy the relative path of the current file to the clipboard
 nmap <Leader>cf :silent !echo -n % \| pbcopy<Enter>
@@ -25,7 +31,7 @@ nmap k gk
 nmap gn :bn<cr>
 nmap gp :bp<cr>
 nmap gw :bd<cr>
-" map gd :bd<cr> 
+" map gd :bd<cr>
 
 " Move to first symbol on the line
 nnoremap H ^
@@ -64,9 +70,9 @@ vnoremap y y`]
 vnoremap p p`]
 
 " Move selected lines down
-vnoremap J :m '>+1<CR>gv=gv
+" vnoremap J :m '>+1<CR>gv=gv
 " Move selected lines up
-vnoremap K :m '<-2<CR>gv=gv
+" vnoremap K :m '<-2<CR>gv=gv
 
 " Space + o to focus buffer between others
 nnoremap <Leader>o :only<CR>
